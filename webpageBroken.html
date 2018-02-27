@@ -20,9 +20,9 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       document.getElementById("demoD").innerHTML = days + "d "
-      document.getElementById("demoH").innerHTML = days + "h "
-      document.getElementById("demoM").innerHTML = days + "m "
-      document.getElementById("demoS").innerHTML = days + "s "
+      document.getElementById("demoH").innerHTML = hours + "h "
+      document.getElementById("demoM").innerHTML = minutes + "m "
+      document.getElementById("demoS").innerHTML = seconds + "s "
       if (distance < 0) {
           clearInterval(x);
           document.getElementById("demo").innerHTML = "EXPIRED";
